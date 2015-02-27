@@ -1,0 +1,12 @@
+<h1>PERSON PAGE</h1>
+
+<% personObject = Person.new(params[:name], params[:age]) %>
+
+<h2>Introduction</h2>
+<%= personObject.introduce %>
+
+<h2>Birth Year</h2>
+<%= personObject.birth_year %>
+
+<h2>Nickname</h2>
+<%= personObject.nickname %>
